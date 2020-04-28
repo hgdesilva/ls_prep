@@ -9,9 +9,9 @@ def has_a_b?(str)
   end
 end
 
-has_a_b?('Kiranbai')
+has_a_b?('abdefghi')
 
-p /b/.match('Kiranbai')
+p /b/.match('abcdefghi')
 puts
 def test(b)
   b.map! {|v| "I like the letter #{v}"}
@@ -104,3 +104,6 @@ contacts.each do |k,v|
 
 puts "here it is/.."
 puts contacts
+
+puts "thankyou the end . \a"
+10.times {puts "\a"}
